@@ -3,5 +3,5 @@ function solution(arr) {
         return acc += item;
     }, 0);
 
-    return answer/arr.length;
+    return answer / arr.length;
 }
