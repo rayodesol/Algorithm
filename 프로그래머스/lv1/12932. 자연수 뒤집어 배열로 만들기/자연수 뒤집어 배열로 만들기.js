@@ -1,6 +1,9 @@
 function solution(n) {
     // 방법 2
-    return [...String(n)].reverse().map(el => {return Number(el)})
+    // n을 문자열로 만든 후, 전개 연산자로 한 글자씩 띄어 배열을 만든다.
+    // reverse 함수로 배열을 거꾸로 뒤집는다.
+    // map 함수로 원소를 모두 숫자형으로 바꾼다.
+    return [...String(n)].reverse().map(el => Number(el))
     
 //     // 방법 1
 //     const answer = []
