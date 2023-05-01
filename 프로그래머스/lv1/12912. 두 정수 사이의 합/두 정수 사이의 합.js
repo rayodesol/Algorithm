@@ -1,5 +1,6 @@
 function solution(a, b) {
     // 방법 2
+    // a ~ b  합 구하는 수학 공식
     return (a + b) * (Math.abs(a - b) + 1) / 2
     
 //     // 방법 1
