@@ -1,8 +1,6 @@
 function solution(absolutes, signs) {
     // 방법 2 - reduce 함수 사용
-    return absolutes.reduce((acc, el, idx) => {
-        return signs[idx] ? acc += el : acc -= el
-    }, 0)
+    return absolutes.reduce((acc, el, idx) => signs[idx] ? acc += el : acc -= el, 0)
     
 //     // 방법 1
 //     let result = 0
