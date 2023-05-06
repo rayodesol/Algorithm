@@ -1,7 +1,7 @@
 function solution(s) {
     const mid = s.length / 2
     
-    // 방법 3
+    // 방법 3 - 문자열 인덱스로 접근
     return s.length % 2 === 0 ? s[mid - 1] + s[mid] : s[parseInt(mid)]
     
     // // 방법 2 - slice 함수 사용
