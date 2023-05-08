@@ -3,7 +3,7 @@ function solution(arr1, arr2) {
     // row.map((v, x) => v + matrix2[y][x]));
     
     // 방법 3 - 이중 for문
-    const ans = [[]] // 빈 배열
+    const ans = [] // 빈 배열
     
     for (let i = 0; i < arr1.length; i++) {
         ans[i] = []
