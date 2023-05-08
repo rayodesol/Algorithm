@@ -1,15 +1,15 @@
 function solution(arr1, arr2) {
-//     // 방법 4 - map 함수 2번
-//     return arr1.map((row, rowIdx) => row.map((num, colIdx) => num + arr2[rowIdx][colIdx]));
+    // 방법 4 - map 함수 2번
+    return arr1.map((row, rowIdx) => row.map((num, colIdx) => num + arr2[rowIdx][colIdx]));
     
-    // 방법 3 - for문 안에 map 함수
-    const ans = []
+//     // 방법 3 - for문 안에 map 함수
+//     const ans = []
     
-    for (let i = 0; i < arr1.length; i++) {
-        ans.push(arr1[i].map((el, idx) => el + arr2[i][idx]))
-    }
+//     for (let i = 0; i < arr1.length; i++) {
+//         ans.push(arr1[i].map((el, idx) => el + arr2[i][idx]))
+//     }
     
-    return ans
+//     return ans
     
 //     // 방법 2 - 이중 for문
 //     const ans = [] // 빈 배열
