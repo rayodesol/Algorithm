@@ -23,7 +23,7 @@ function solution(arr1, arr2) {
     
 //     return ans
     
-    // 방법 1 - 이중 for문 / 6.84ms
+    // 방법 1 - 이중 for문 / 6.64ms
     // 행, 열의 크기가 같은, 모든 원소가 0인 배열로 초기화
     const ans = Array.from(Array(arr1.length), () => Array(arr1[0].length).fill(0))
     
