@@ -1,3 +1,7 @@
 function solution(n) {
-    return String(n)
+    // 방법 2
+    return `${n}`
+    
+    // // 방법 1
+    // return String(n)
 }
