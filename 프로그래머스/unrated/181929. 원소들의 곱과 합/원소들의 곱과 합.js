@@ -1,11 +1,5 @@
 function solution(num_list) {
-    let multi = 1
-    let sum = 0
-    
-    for (num of num_list) {
-        multi *= num
-        sum += num
-    }
-    
-    return multi < sum * sum ? 1 : 0
+    const multi = num_list.reduce((acc, el) => acc *= el, 1)
+    const sum = num_list.reduce((acc, el) => acc += el, 0)
+    return multi < sum ** 2 ? 1 : 0 
 }
