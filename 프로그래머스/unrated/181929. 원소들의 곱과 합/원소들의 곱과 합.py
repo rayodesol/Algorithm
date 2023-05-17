@@ -3,4 +3,5 @@ def solution(num_list):
     for num in num_list:
         mul *= num
     
-    return 1 if mul < sum(num_list) ** 2 else 0
+    return int(mul < sum(num_list) ** 2)
+    # return 1 if mul < sum(num_list) ** 2 else 0
