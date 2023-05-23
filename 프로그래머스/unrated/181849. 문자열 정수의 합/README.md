@@ -1,6 +1,6 @@
 # [unrated] 문자열 정수의 합 - 181849 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181849?language=javascript) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181849) 
 
 ### 성능 요약
 
