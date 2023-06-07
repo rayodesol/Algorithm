@@ -1,7 +1,7 @@
 # import math
 
 def solution(price):
-#     # 방법 2 - for문, enumerate 사용
+#     # 방법 2 - for문
 #     discount = [[500000, 0.8], [300000, 0.9], [100000, 0.95], [10, 1]]
     
 #     for standard, calc in discount:
