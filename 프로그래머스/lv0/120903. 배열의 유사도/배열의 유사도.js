@@ -6,7 +6,7 @@ function solution(s1, s2) {
         for (el_s2 of s2) {
             if (el_s1 === el_s2) {
                 answer += 1
-                break // 같은 것을 찾으면 다음 글자로 넘어간다.
+                // break // 같은 것을 찾으면 다음 글자로 넘어간다.
             }
         }
     }
