@@ -1,6 +1,5 @@
 def solution(prices):
     answer = [i for i in range(len(prices) - 1, -1, -1)]
-    # answer = [0 for _ in range(len(prices))]
     stack = []
     
     for idx, price in enumerate(prices):
