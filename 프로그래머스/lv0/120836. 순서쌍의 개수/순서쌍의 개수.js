@@ -6,8 +6,7 @@ function solution(n) {
     for (let num = 1; num <= Math.sqrt(n); num++) {
         if (n % num === 0) {
             answer += 1
-            // 중복되는 수는 제거해서 센다.
-            if (n / num !== num) answer += 1
+            if (n / num !== num) answer += 1 // 중복되는 수는 제거해서 센다.
         }
     }
     
