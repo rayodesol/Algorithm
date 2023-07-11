@@ -1,5 +1,5 @@
 function solution(n, k) {
-    // 방법 1 - for문
+    // for문으로 k부터 n이하까지 k씩 더해가며 빈 배열에 추가한다.
     const answer = []
     
     for (let i = k; i <= n; i += k) {
