@@ -1,6 +1,9 @@
 def solution(cipher, code):
-    # 방법 2 - 리스트 컴프리핸션, join 함수 사용. 인덱스를 code-1부터 시작해서 code씩 더해간다.
-    return ''.join([cipher[i] for i in range(code - 1, len(cipher), code)])
+    # 방법 3 - 슬라이싱
+    return cipher[code - 1::code]
+
+    # # 방법 2 - 리스트 컴프리핸션, join 함수 사용. 인덱스를 code-1부터 시작해서 code씩 더해간다.
+    # return ''.join([cipher[i] for i in range(code - 1, len(cipher), code)])
 
 #     # 방법 1 - for문, enumerate 함수 사용
 #     answer = ''
