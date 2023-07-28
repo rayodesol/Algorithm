@@ -4,4 +4,4 @@ def solution(n_str):
         if el != '0':
             start = i
             break
-    return n_str[i:]
+    return n_str[start:]
