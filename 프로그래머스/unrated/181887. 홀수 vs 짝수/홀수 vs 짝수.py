@@ -8,4 +8,4 @@ def solution(num_list):
         else:
             odd += num_list[i]
     
-    return max(odd, even)
+    return odd if odd > even else even
