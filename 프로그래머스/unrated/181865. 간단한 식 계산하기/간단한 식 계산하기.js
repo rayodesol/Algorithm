@@ -1,5 +1,5 @@
 function solution(binomial) {
-    [a, op, b] = binomial.split(' ')
+    const [a, op, b] = binomial.split(' ')
     
     if (op === '+') {
         return Number(a) + Number(b)
