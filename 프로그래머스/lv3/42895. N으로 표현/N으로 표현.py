@@ -13,4 +13,6 @@ def solution(N, number):
                     if l != 0 and k != 0: case.add(k // l)
         if number in case: return i
     
+    # print(dp)
+    
     return -1
