@@ -14,3 +14,7 @@ def solution(money):
         dp2[i] = max(dp2[i - 1], money[i] + dp2[i - 2])
     
     return max(max(dp1), max(dp2))
+
+# [1, 10, 20, 4, 40]
+# [1, 1, 21, 21, 0] <- dp1
+# [0, 10, 20, 20, 60] <- dp2
