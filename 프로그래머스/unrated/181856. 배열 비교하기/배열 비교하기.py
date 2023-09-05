@@ -3,6 +3,7 @@ def solution(arr1, arr2):
         return 1
     elif len(arr1) < len(arr2):
         return -1
+    # 방법 2 - 배열 합을 변수에 저장하지 않음
     elif sum(arr1) > sum(arr2):
         return 1
     elif sum(arr1) < sum(arr2):
