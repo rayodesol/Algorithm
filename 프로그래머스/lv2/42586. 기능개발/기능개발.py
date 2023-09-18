@@ -19,5 +19,3 @@ def solution(progresses, speeds):
         answer.append(len(queue))
     
     return answer
-            
-    
