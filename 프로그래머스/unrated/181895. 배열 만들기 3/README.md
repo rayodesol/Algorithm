@@ -1,10 +1,10 @@
 # [level unrated] 배열 만들기 3 - 181895 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181895?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/181895?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.2 MB, 시간: 0.04 ms
+메모리: 37.5 MB, 시간: 0.55 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 10월 5일 22:47:32
+2023년 10월 6일 22:37:46
 
 ### 문제 설명
 
