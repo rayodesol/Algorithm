@@ -1,5 +1,5 @@
 def solution(my_string):
-    s = set()
+    s = set()   # hashset 사용
     answer = ''
     
     for ch in my_string:
