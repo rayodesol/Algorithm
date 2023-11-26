@@ -1,10 +1,10 @@
 # [level unrated] 7의 개수 - 120912 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120912?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120912?language=javascript) 
 
 ### 성능 요약
 
-메모리: 10.1 MB, 시간: 0.00 ms
+메모리: 33.4 MB, 시간: 0.05 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2023년 11월 6일 20:16:34
+2023년 11월 0일 23:37:35
 
 ### 문제 설명
 
