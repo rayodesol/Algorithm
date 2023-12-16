@@ -1,5 +1,5 @@
 def solution(s):
-    stack = []
+    stack = [] #
     
     for el in s:
         if el == '(':
