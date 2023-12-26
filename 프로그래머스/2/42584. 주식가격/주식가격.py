@@ -1,5 +1,4 @@
 def solution(prices):
-    # 
     answer = [i for i in range(len(prices) - 1, -1, -1)]
     stack = []
     
